@@ -18,9 +18,14 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding:0 30px;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 52px;
+}
+
+hr{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) );
 }
 
 .highlight{
@@ -96,7 +101,24 @@ ul li a{
     padding:20px;
     margin-left: 120px;
 }
+small{
+    margin-left: 790px;
+}
+
+/* transform & transition */
+ 
+#top-image:hover{
+    transform: rotate(360deg);
+    transition: transform 3s;
+}
 #back-image{
     position: absolute;
     margin-left: 120px;
+}
+
+/* company logo stylesheet */
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 0;
 }
