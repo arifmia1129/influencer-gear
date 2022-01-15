@@ -378,7 +378,7 @@ footer a{
 /* reponsive for pad  */
 
 
-@media (max-width:992px) {
+@media (max-width:992px) and (min-width:672px) {
     .container{
         width: 100%;
     }
